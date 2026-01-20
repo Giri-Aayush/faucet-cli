@@ -1,0 +1,13 @@
+{
+  "name": "Ethereum Sepolia",
+  "chain_id": 11155111,
+  "tokens": {
+    "ETH": {
+      "drip_amount": "0.001",
+      "max_per_hour": 0.01,
+      "max_per_day": 0.05
+    }
+  },
+  "min_balance_protect_pct": 5,
+  "explorer_url": "https://sepolia.etherscan.io/tx/"
+}

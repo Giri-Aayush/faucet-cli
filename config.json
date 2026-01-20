@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": 8080,
+    "log_level": "info"
+  },
+  "pow": {
+    "difficulty": 3,
+    "challenge_ttl_seconds": 300
+  },
+  "rate_limits": {
+    "max_requests_per_day_ip": 5,
+    "max_challenges_per_hour": 10
+  }
+}

@@ -1,0 +1,55 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/server
+/cli
+/faucet
+starknet-faucet
+*.test
+*.out
+
+# Environment files (CONTAINS PRIVATE KEYS)
+.env
+.env.local
+.env.production
+
+# Account files (CONTAINS PRIVATE KEYS - NEVER PUSH!)
+account_info.txt
+new_account.txt
+new_secure_wallet.txt
+
+# Scripts folder (development only - not part of CLI)
+scripts/
+!scripts/install.js
+!scripts/generate_keys.sh
+
+# Captcha questions (Don't expose - defeats the purpose!)
+pkg/cli/captcha/questions.go
+
+# Testing & Development
+TEST_MANUAL.md
+Makefile
+
+# Documentation (too many files)
+docs/
+
+# IDE & Claude
+.vscode/
+.idea/
+.claude/
+.DS_Store
+
+# Logs & temp
+*.log
+tmp/
+*.tmp
+
+# Build
+dist/
+build/
+
+# Redis
+dump.rdb

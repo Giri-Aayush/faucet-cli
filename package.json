@@ -1,0 +1,41 @@
+{
+  "name": "faucet-cli",
+  "version": "1.0.18",
+  "description": "CLI tool to request testnet tokens from Starknet Sepolia and Ethereum Sepolia faucets",
+  "bin": {
+    "faucet": "./bin/faucet.js"
+  },
+  "scripts": {
+    "postinstall": "node ./install.js",
+    "test": "node ./bin/faucet.js --help"
+  },
+  "keywords": [
+    "starknet",
+    "ethereum",
+    "faucet",
+    "testnet",
+    "sepolia",
+    "crypto",
+    "blockchain",
+    "cli",
+    "multi-chain"
+  ],
+  "author": "Aayush Giri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Giri-Aayush/faucet-cli.git"
+  },
+  "homepage": "https://github.com/Giri-Aayush/faucet-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Giri-Aayush/faucet-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "install.js",
+    "README.md"
+  ]
+}
