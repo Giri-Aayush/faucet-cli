@@ -158,6 +158,7 @@ faucet-terminal l
 | `--network` | `-n` | Network to use (required for most commands) |
 | `--token` | | Token to request: `ETH`, `STRK` |
 | `--json` | | Output in JSON format |
+| `--version` | `-v` | Show version |
 | `--help` | `-h` | Show help |
 
 ## Rate Limits

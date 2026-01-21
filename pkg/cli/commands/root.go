@@ -71,7 +71,7 @@ FLAGS
   -h, --help      Show help
 
 https://github.com/Giri-Aayush/faucet-terminal`,
-	Version: "2.0.3",
+	Version: "2.0.4",
 }
 
 // Execute runs the root command

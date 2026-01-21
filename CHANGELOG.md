@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.4] - 2025-01-21
+
+### Fixed
+- PoW solver max attempts increased to 500 million (was 100 million)
+- PoW difficulty lowered to 6 for reliable solving (~30s average)
+
+## [2.0.3] - 2025-01-21
+
+### Added
+- `-v` / `--version` flag to check installed CLI version
+
+### Changed
+- Clearer rate limit error messages with type prefixes:
+  - `[HOURLY LIMIT]` - Token-specific hourly cooldown
+  - `[DAILY LIMIT]` - IP-based daily limit
+  - `[FAUCET LIMIT]` - Server distribution limit
+  - `[LOW BALANCE]` - Faucet balance protection
+
+### Fixed
+- Captcha now shows random questions (was showing same question)
+- Consistent `faucet-terminal` naming in all docs and configs
+
 ## [2.0.0] - 2025-01-21
 
 ### Changed
@@ -52,5 +74,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 2.0.4 | 2025-01-21 | Fix PoW solver timeout issue |
+| 2.0.3 | 2025-01-21 | Version flag, clearer errors |
 | 2.0.0 | 2025-01-21 | Rebrand to faucet-terminal, add command/network aliases |
 | 1.0.18 | 2024-01 | Initial release with Starknet & Ethereum Sepolia |

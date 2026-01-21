@@ -52,8 +52,8 @@ func (s *Solver) Solve(challenge string, difficulty int, progressCallback func(i
 			lastUpdate = time.Now()
 		}
 
-		// Safety check - shouldn't happen with difficulty 4
-		if nonce > 100000000 {
+		// Safety check - max 500 million attempts
+		if nonce > 500000000 {
 			return nil, fmt.Errorf("failed to solve challenge after %d attempts", nonce)
 		}
 	}

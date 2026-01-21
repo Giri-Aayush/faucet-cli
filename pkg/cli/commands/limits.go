@@ -44,7 +44,7 @@ func runLimits(cmd *cobra.Command, args []string) error {
 
 	fmt.Println("  proof of work")
 	fmt.Println("    required for each request")
-	fmt.Println("    8 challenges per hour max")
+	fmt.Println("    10 challenges per hour max")
 	fmt.Println()
 
 	return nil
