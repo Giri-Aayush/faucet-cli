@@ -108,7 +108,7 @@ MIT
 
 <div align="center">
 
-[npm](https://www.npmjs.com/package/faucet-terminal) · [GitHub](https://github.com/Giri-Aayush/faucet-cli) · [Issues](https://github.com/Giri-Aayush/faucet-cli/issues)
+[npm](https://www.npmjs.com/package/faucet-terminal) · [GitHub](https://github.com/Giri-Aayush/faucet-terminal) · [Issues](https://github.com/Giri-Aayush/faucet-terminal/issues)
 
 Made with ❤️ by a developer, for developers
 

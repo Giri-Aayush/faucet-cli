@@ -61,8 +61,8 @@ FLAGS
   -n, --network   Network to use (required)
   -h, --help      Show help
 
-https://github.com/Giri-Aayush/faucet-cli`,
-	Version: "2.0.0",
+https://github.com/Giri-Aayush/faucet-terminal`,
+	Version: "2.0.1",
 }
 
 // Execute runs the root command
